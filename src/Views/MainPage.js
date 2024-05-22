@@ -22,9 +22,9 @@ const MainPage = () => {
         <CgMenuMotion className="main-menu" />
       </div>
       <img src={topimg} alt="reunirts" className="image-one" />
-      <div className="background-main">
+      {/* <div className="background-main"> */}
         <img src={background} alt="reunirts" className="background" />
-      </div>
+      {/* </div> */}
       <div className="section-two">
         <p className="main-text1">
           Your Smile

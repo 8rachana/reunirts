@@ -1,6 +1,6 @@
-/* .main-page {
-    display: none;
-  } */
+.main-page {
+  display: none;
+}
 
 @media only screen and (max-width: 767px) {
   .main-page {
@@ -8,6 +8,8 @@
     margin: 0;
     padding: 30px 4px;
     position: relative;
+    display: block;
+    overflow: hidden;
   }
   p,
   span,
@@ -45,6 +47,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    /* background-image: url('../assets//background.svg'); */
   }
   .section-three {
     display: flex;
@@ -57,11 +60,13 @@
     position: relative;
     overflow-x: hidden;
     z-index: 0;
+    width: 300px;
+    height: 200px;
   }
   .background {
     position: absolute;
     left: 200px;
-    top: -120px;
+    top: 580px;
   }
   .main-text1 {
     font-size: 26px;
