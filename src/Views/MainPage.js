@@ -15,7 +15,7 @@ import textimg from "../assets/textimg.svg";
 const MainPage = () => {
   return (
     <>
-      <div style={{marginTop:"140px"}}>
+      <div style={{marginTop:"140px"}} className="desktop-main">
         <h2 className="display-desktop">
           Kindly use the MOBILE VIEW to access the website Thank you,
           <br /> Have a great day.
