@@ -1,14 +1,14 @@
 .main-page {
   display: none;
 }
-.display-desktop{
-    display: flex;
-            background-image: linear-gradient(to right, #ad37e0, #ee2b3b);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        display: inline;
-        margin: 0;
+.display-desktop {
+  display: flex;
+  background-image: linear-gradient(to right, #ad37e0, #ee2b3b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  margin-top: 200px;
 }
 @media only screen and (max-width: 767px) {
   .display-desktop {

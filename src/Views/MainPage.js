@@ -15,13 +15,13 @@ import textimg from "../assets/textimg.svg";
 const MainPage = () => {
   return (
     <>
-      {/* <div> */}
-      <h2 className="display-desktop">
-        Kindly use the MOBILE VIEW to access the website Thank you,
-        <br /> Have a great day.
-        {/* <span>😊</span> */}
-      </h2>
-      {/* </div> */}
+      <div style={{marginTop:"140px"}}>
+        <h2 className="display-desktop">
+          Kindly use the MOBILE VIEW to access the website Thank you,
+          <br /> Have a great day.
+          {/* <span>😊</span> */}
+        </h2>
+      </div>
       <div className="main-page">
         <img src={hdr} alt="reunirts" className="hdr-img" />
         <div className="main-hdr">
