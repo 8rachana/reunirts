@@ -8,7 +8,6 @@
   background-clip: text;
   color: transparent;
   display: inline;
-  margin-top: 200px;
 }
 @media only screen and (max-width: 767px) {
   .display-desktop {
